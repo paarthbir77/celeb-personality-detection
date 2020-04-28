@@ -17,11 +17,11 @@ After removing null data points, 16140 training instances and 1798 validation in
 training distribution:.......................... validation distribution :
 
 infj     1820   ................................. infj    217  
-infp     1760   ................................. intj    192  
+infp     1760   ................................ intj    192  
 intj     1562   ................................. intp    165  
-intp     1265   ................................. infp    162  
-entp     1073   ................................. entj    128  
-enfp     1023   ................................. entp    119  
+intp     1265   ................................ infp    162  
+entp     1073   ................................ entj    128  
+enfp     1023   ................................ entp    119  
 istp     1005   ................................. istp    112  
 entj     1000   ................................. isfp    110  
 isfp      996   ................................. enfp    109  
@@ -36,8 +36,9 @@ esfj      330   ................................. esfp     35
 
 ### To-Do:
 1. At present the code uses google search url, to automate the process such that it does not require google search url
-2. To improve the NLP model, current model provides a training accuracy of 87.5% and a validation accuracy of ~63.2% clearly overfitting. New architectures to be considered.
-3. Address the class imbalance, can be done with class weights in loss function.
+2. To improve the NLP model, current model provides a training accuracy of 87.5% and a validation accuracy of ~63.2% clearly overfitting. New architectures to be considered.  
+3. Address the class imbalance, can be done with class weights in loss function.  
+4. Integrate scraping from popular websites such as Twitter.
 ### Libraries used:
 1. Beautiful Soup, requests, urllib for scraping
 2. regex for text processing
