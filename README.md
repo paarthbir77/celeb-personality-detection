@@ -14,24 +14,24 @@ For personality detection from the extracted text data the Kaggle MBTI dataset (
 Dataset Distribution:
 After removing null data points, 16140 training instances and 1798 validation instances were taken with the distribution for classes:
 
-training distribution:                         validation distribution :
+training distribution:.......................... validation distribution :
 
-infj     1820                                     infj    217  
-infp     1760                                     intj    192  
-intj     1562                                     intp    165  
-intp     1265                                     infp    162  
-entp     1073                                     entj    128  
-enfp     1023                                     entp    119  
-istp     1005                                     istp    112  
-entj     1000                                     isfp    110  
-isfp      996                                     enfp    109  
-istj      962                                     isfj    102  
-enfj      945                                     istj     97  
-isfj      915                                     enfj     87  
-estp      590                                     estp     64  
-esfp      495                                     estj     50  
-estj      399                                     esfj     49  
-esfj      330                                     esfp     35  
+infj     1820   ................................. infj    217  
+infp     1760   ................................. intj    192  
+intj     1562   ................................. intp    165  
+intp     1265   ................................. infp    162  
+entp     1073   ................................. entj    128  
+enfp     1023   ................................. entp    119  
+istp     1005   ................................. istp    112  
+entj     1000   ................................. isfp    110  
+isfp      996   ................................. enfp    109  
+istj      962   ................................. isfj    102  
+enfj      945   ................................. istj     97  
+isfj      915   ................................. enfj     87  
+estp      590   ................................. estp     64  
+esfp      495   ................................. estj     50  
+estj      399   ................................. esfj     49  
+esfj      330   ................................. esfp     35  
 
 
 ### To-Do:
